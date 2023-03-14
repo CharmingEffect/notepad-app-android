@@ -77,7 +77,7 @@ public class NoteListAdapter extends RecyclerView.Adapter<NotesViewHolder> {
         });
     }
 
-
+    // it selects a random color for each note
     private int getRandomColor(){
 
     List<Integer> colorCode = new ArrayList<>();
