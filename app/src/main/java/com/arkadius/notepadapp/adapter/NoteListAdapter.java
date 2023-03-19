@@ -28,6 +28,8 @@ public class NoteListAdapter extends RecyclerView.Adapter<NotesViewHolder> {
         this.listener = listener;
     }
 
+
+
     @NonNull
     @Override
     public NotesViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -100,5 +102,13 @@ public class NoteListAdapter extends RecyclerView.Adapter<NotesViewHolder> {
     public int getItemCount() {
         return list.size();
     }
+
+    public void filterNotes (List<Note> filteredNotes){
+        list = filteredNotes;
+        notifyDataSetChanged();
+    }
+
 }
+
+
 

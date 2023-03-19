@@ -10,15 +10,18 @@ import com.arkadius.notepadapp.dao.NoteDao;
 import com.arkadius.notepadapp.model.Note;
 
 @Database(entities = Note.class, version = 1, exportSchema = false)
-public abstract class NotepadDB  extends RoomDatabase {
+public abstract class NotepadDB extends RoomDatabase {
     private static NotepadDB database;
 
 
-    private static String DATABASE_NAME = "Notepad";
+    private static String DATABASE_NAME = "notepad_db";
 
     public synchronized static NotepadDB getInstance(Context context) {
         if (database == null) {
-            database = Room.databaseBuilder(context.getApplicationContext(), NotepadDB.class, DATABASE_NAME).allowMainThreadQueries().fallbackToDestructiveMigration().build();
+            database = Room.databaseBuilder(context.getApplicationContext(), NotepadDB.class, DATABASE_NAME)
+                    .allowMainThreadQueries()
+                    .fallbackToDestructiveMigration()
+                    .build();
 
         }
 

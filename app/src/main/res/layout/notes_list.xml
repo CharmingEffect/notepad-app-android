@@ -32,7 +32,7 @@
         android:padding="10dp"
         android:scrollHorizontally="true"
         android:singleLine="true"
-        android:text="Title"
+        android:text="@string/title"
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -50,7 +50,7 @@
 </RelativeLayout>
         <TextView
             android:id="@+id/textView_content"
-            android:text="Note"
+            android:text="@string/note"
             android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -71,7 +71,7 @@
             android:scrollHorizontally="true"
             android:singleLine="true"
             android:text="Date"
-            android:textColor="@color/nice_blue"
+            android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="normal" />
 

@@ -12,27 +12,26 @@ public class Note implements Serializable {
 
 
     @PrimaryKey(autoGenerate = true)
-    private int Id = 0;
+    int id = 0;
 
     @ColumnInfo(name = "title")
-    private String title;
+    String title = "";
 
-    @ColumnInfo(name="content")
-    private String content;
+    @ColumnInfo(name = "content")
+    String content = "";
 
     @ColumnInfo(name = "date")
-    private String date;
+    String date = "";
 
-    @ColumnInfo(name="pinned")
+    @ColumnInfo(name = "pinned")
     boolean pinned = false;
 
-
     public int getId() {
-        return Id;
+        return id;
     }
 
     public void setId(int id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getTitle() {
