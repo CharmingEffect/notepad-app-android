@@ -1,0 +1,34 @@
+@startuml
+
+package "com.arkadius.notepadapp" {
+  package "adapter" {
+    class NoteListAdapter
+    class NotesViewHolder
+  }
+
+  package "dao" {
+    interface NoteDao
+    class NotepadDB
+  }
+
+  package "listener" {
+    interface NoteClickListener
+  }
+
+  package "model" {
+    class Note
+  }
+
+  class MainActivity
+  class NoteFormActivity
+}
+
+NoteListAdapter --> NotesViewHolder : uses
+NoteListAdapter --> NoteClickListener : uses
+MainActivity --> NoteListAdapter : uses
+MainActivity --> NoteDao : uses
+NoteFormActivity --> NoteDao : uses
+NotepadDB --> NoteDao : provides
+NoteDao --> Note : operates on
+
+@enduml
