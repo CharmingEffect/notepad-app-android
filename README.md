@@ -4,15 +4,15 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/CharmingEffect/crew-logistic-system">
-    <img src="frontend/public/favicon.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/CharmingEffect/notepad-app-android">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5Z8ByK8WxFsyz-TY8j3ZuMPD0u71-arfIQ&usqp=CAU" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Notepad App - Mobile Application</h3>
 
   <p align="center">
     <br />
-    <a href="https://github.com/CharmingEffect/crew-logistic-system"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/CharmingEffect/notepad-app-android"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://arkadius.one/">Report Bug</a>
@@ -50,8 +50,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## Notepad - Android mobile application
-
-[![Product Name Screen Shot][product-screenshot]](https://cls.arkadius.one/)
 
 
 This application is a note-taking app designed for Android smartphones, with a minimum version requirement of 7.0. It allows users to create, edit, and save notes directly on their mobile devices. With this app, users can quickly and easily take notes on-the-go, without having to carry a physical notepad.
@@ -105,7 +103,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 [Arkadiusz Grudzien](https://arkadius.one) - arkadiuszgrudzien@yahoo.com
 
-Project Link: [https://github.com/CharmingEffect/crew-logistic-system](https://github.com/CharmingEffect/notepad-app-android)
+Project Link: [https://github.com/CharmingEffect/notepad-app-android](https://github.com/CharmingEffect/notepad-app-android)
 
 
 
